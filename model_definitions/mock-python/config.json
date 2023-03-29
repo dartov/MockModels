@@ -1,0 +1,7 @@
+{
+  "hyperParameters": {
+    "mock_float": 0.2,
+    "mock_int": 6,
+    "mock_string": "something"
+  }
+}
