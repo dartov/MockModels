@@ -1,0 +1,6 @@
+{
+	"hyperParameters": {
+		"continuous_features": "age,another_age",
+		"categorical_features": "CategFeature,Test_Category"
+	}
+}

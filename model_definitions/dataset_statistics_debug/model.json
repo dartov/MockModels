@@ -1,0 +1,7 @@
+{
+    "id": "6de4ceff-e1e5-46b6-ba55-6dc1f4c036db",
+    "name": "Dataset Statistics Debug",
+    "description": "The dummy model to debug how dataset statistics is collected",
+    "language": "python",
+    "source_model_id": "03c9a01f-bd46-4e7c-9a60-4282039094e6"
+}
