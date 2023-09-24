@@ -19,16 +19,14 @@ def train(context: ModelContext, **kwargs):
     train_df = DataFrame.from_query(context.dataset_info.sql)
 
     print("Starting dummy training...")
-
     print("Continuous features are: ", continuous_features)
     print("Categorical features are: ", categorical_features)
     print("Targets are:", context.dataset_info.target_names)
-
     print("Finished dummy training")
 
 
     record_training_stats(train_df,
-                          features=continuous_features + categorical_features,
+                          features=feature_list,
                           targets=[target_name],
-                          categorical=categorical_features + [target_name],
+                          categorical=categorical_features+[target_name],
                           context=context)
